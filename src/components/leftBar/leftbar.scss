@@ -3,6 +3,10 @@
 
 
 .leftBar {
+  *{
+    margin: 0;
+    padding: 0;
+}
   @include themify($themes) {
     flex: 2;
     position: sticky;

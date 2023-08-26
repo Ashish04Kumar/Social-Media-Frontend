@@ -1,5 +1,8 @@
 @import "../../style.scss";
-
+*{
+  margin: 0;
+  padding: 0;
+}
 .navbar{
     @include themify($themes){
     display: flex;

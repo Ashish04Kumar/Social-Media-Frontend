@@ -1,5 +1,10 @@
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
+import Navbar from "./components/navBar/Navbar";
+import LeftBar from "./components/leftBar/LeftBar";
+import RightBar from "./components/rightBar/RightBar";
+import Home from "./pages/home/Home";
+import Profile from "./pages/profile/Profile";
 import {
  
   Route,
@@ -8,11 +13,7 @@ import {
   Routes,
   BrowserRouter as Router
 } from "react-router-dom";
-import Navbar from "./components/navBar/Navbar";
-import LeftBar from "./components/leftBar/LeftBar";
-import RightBar from "./components/rightBar/RightBar";
-import Home from "./pages/home/Home";
-import Profile from "./pages/profile/Profile";
+
 import { useContext } from "react";
 import './style.scss'
 import { DarkModeContext} from "./context/darkModeContext";

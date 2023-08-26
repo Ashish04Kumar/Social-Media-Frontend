@@ -1,5 +1,6 @@
 import { createContext, useEffect, useState } from "react";
 
+//creating a context API
 export const DarkModeContext = createContext()
 
 export const DarkModeContextProvider = ({children}) =>{
